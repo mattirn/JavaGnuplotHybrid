@@ -1,15 +1,14 @@
-package org.leores.demo;
+package org.leores.gnuplot.demo;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
-import org.leores.plot.JGnuplot;
-import org.leores.plot.JGnuplot.Plot;
-import org.leores.util.U;
-import org.leores.util.able.Processable2;
-import org.leores.util.data.DataTable;
-import org.leores.util.data.DataTableSet;
+import org.leores.gnuplot.plot.JGnuplot;
+import org.leores.gnuplot.plot.JGnuplot.Plot;
+import org.leores.gnuplot.util.data.DataTable;
+import org.leores.gnuplot.util.data.DataTableSet;
+import org.leores.mapreduce.util.U;
+import org.leores.mapreduce.util.able.Processable2;
 
 public class JGnuplotDemo {
 	Plot plot1, plot2;

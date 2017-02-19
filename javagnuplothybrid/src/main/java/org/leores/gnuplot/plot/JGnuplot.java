@@ -1,22 +1,21 @@
-package org.leores.plot;
+package org.leores.gnuplot.plot;
 
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.Date;
 import java.util.List;
 import java.util.Scanner;
 
-import org.leores.ecpt.TRuntimeException;
-import org.leores.util.Logger;
-import org.leores.util.SysUtil;
-import org.leores.util.SysUtil.Command;
-import org.leores.util.U;
-import org.leores.util.able.Processable2;
-import org.leores.util.data.DataTable;
-import org.leores.util.data.DataTableSet;
+import org.leores.mapreduce.ecpt.TRuntimeException;
+import org.leores.gnuplot.util.data.DataTable;
+import org.leores.gnuplot.util.data.DataTableSet;
+import org.leores.mapreduce.util.Logger;
+import org.leores.mapreduce.util.SysUtil;
+import org.leores.mapreduce.util.SysUtil.Command;
+import org.leores.mapreduce.util.U;
+import org.leores.mapreduce.util.able.Processable2;
 
 /**
  * We do not check the null of parameters intentionally to make the program stop

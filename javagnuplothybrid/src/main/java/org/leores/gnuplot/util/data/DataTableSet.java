@@ -1,9 +1,9 @@
-package org.leores.util.data;
+package org.leores.gnuplot.util.data;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.leores.util.able.Processable2;
+import org.leores.mapreduce.util.able.Processable2;
 
 public class DataTableSet implements Cloneable {
 	public String info;

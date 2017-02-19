@@ -1,15 +1,15 @@
-package org.leores.util.data;
+package org.leores.gnuplot.util.data;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import org.leores.ecpt.TRuntimeException;
-import org.leores.util.ObjArray;
-import org.leores.util.ObjArray.ObjArrayComparator;
-import org.leores.util.U;
-import org.leores.util.able.Processable2;
+import org.leores.mapreduce.ecpt.TRuntimeException;
+import org.leores.mapreduce.util.ObjArray;
+import org.leores.mapreduce.util.ObjArray.ObjArrayComparator;
+import org.leores.mapreduce.util.U;
+import org.leores.mapreduce.util.able.Processable2;
 
 public class DataTable implements Cloneable {
 	public String info;
